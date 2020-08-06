@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div>
+    <ul>
+        {% for container in container_list %}
+        <li><a href="/container/{{ container.id }}/">{{ container.name }}:{{ container.image }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+
+{% endblock %}

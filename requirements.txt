@@ -1,0 +1,2 @@
+aiodocker==0.19.1
+Quart==0.13.0
