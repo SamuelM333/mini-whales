@@ -5,7 +5,7 @@
 <div>
     <ul>
         {% for container in container_list %}
-        <li><a href="/container/{{ container.id }}/">{{ container.name }}:{{ container.image }}</a></li>
+        <li><a href="/container/{{ container.short_id }}/">{{ container.name }}:{{ container.image.tags.0 }}</a></li>
         {% endfor %}
     </ul>
 </div>

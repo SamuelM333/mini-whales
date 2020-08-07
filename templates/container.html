@@ -2,7 +2,7 @@
 
 {% block content %}
 
-<h2>{{ container_name }}</h2>
+<h2>{{ container.name }}:{{ container.image.tags.0 }}</h2>
 <pre id="logs"></pre>
 <script src="/static/index.js"></script>
 

@@ -1,5 +1,6 @@
 aiodocker==0.19.1
-fastapi==0.60.1
-uvicorn==0.11.8
-Jinja2==2.11.2
 aiofiles==0.5.0
+docker==4.2.2
+fastapi==0.60.1
+Jinja2==2.11.2
+uvicorn==0.11.8
